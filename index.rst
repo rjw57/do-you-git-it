@@ -9,9 +9,35 @@ Welcome to Do You Git It?'s documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
+
+    why
 
 
+Notes
+=====
+
+Audience
+''''''''
+
+* Non-technical
+* Need utility of source-control explained
+
+History
+'''''''
+
+* SCCS (Source code control system), 1972
+* RCS (Revision control system), 1982
+* CVS (Concurrent versioning system), 1990
+* Subversion, 2000
+* Distributed:
+ * BitKeeper, 1998
+ * GNU arch, 2001
+ * darcs, 2002
+ * DVCS, 2002,
+ * Mercurial, 2005
+ * Git, 2005
+ * bzr, 2005
 
 Indices and tables
 ==================
