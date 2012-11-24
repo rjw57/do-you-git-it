@@ -175,3 +175,39 @@ could not themselves check it out until their PI had 'checked in' the file again
 
 And so was born, in 1990, CVS the Concurrent Versioning System. This worked just like RCS: each file was separately
 versioned
+
+**FIXME MORE**
+
+* Concurrent, Yes (obviously)
+* Many files, Weakly
+* Many versions, Yes
+* Names, Yes
+* Stable names, No
+* History, Yes
+* Merging, No
+* Connected, Central
+* Content addressed, No
+
+SVN
+---
+
+* Concurrent, Yes
+* Many files, Yes but not atomically
+* Many versions, Yes
+* Names, Yes
+* Stable names, No
+* History, Yes
+* Merging, No
+* Connected, Central
+* Content addressed, No
+
+git
+---
+
+We'll examine how git does things in a bit more depth.
+
+The central change which git makes which is different to SVN, CVS and RCS is that instead of having each file stored as
+difference from another, git stores the files directly.
+
+Each file which makes up a project is collected together into a single set. A node in a graph (nearly). This node
+contains all of the files and a set of pointers pointing to what versions preceded it.
