@@ -3,46 +3,38 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Do You Git It?'s documentation!
-==========================================
+Do You Git It
+=============
 
-Contents:
+Introduction
+------------
 
-.. toctree::
-    :maxdepth: 2
+.. rst-class:: build
 
-    why
+* What is source control?
+* Why should I care?
+* :download:`An introduction to SVN <videos/svn-intro.mp4>`
+* It is *not* about being able to undo changes, although it certainly helps that
+* It is *not* required to make something Open Source
 
+* :doc:`why`
+* :doc:`history`
 
-Notes
-=====
+Git: is it difficult?
+---------------------
 
-Audience
-''''''''
+.. rst-class:: build
 
-* Non-technical
-* Need utility of source-control explained
+* :download:`Some people can't follow it <videos/downfall-git.mp4>`
+* :download:`Aren't git users "holier than thou"? <videos/linus-tech-talk-edit.webm>`
 
-History
-'''''''
+Git
+---
 
-* SCCS (Source code control system), 1972
-* RCS (Revision control system), 1982
-* CVS (Concurrent versioning system), 1990
-* Subversion, 2000
-* Distributed:
- * BitKeeper, 1998
- * GNU arch, 2001
- * darcs, 2002
- * DVCS, 2002,
- * Mercurial, 2005
- * Git, 2005
- * bzr, 2005
+* :doc:`model`
 
-Indices and tables
-==================
+.. notslides::
+    .. toctree::
+        notes
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 

@@ -1,0 +1,20 @@
+digraph single_dude {
+    "give-to-others" [ shape=note ];
+    "master" [ shape=note ];
+
+    "HEAD" [ shape=note ];
+
+    c1 [ label = "Fix bug in A", style=filled, fillcolor=green ];
+    c2 [ label = "Fix bug in A", style=filled, fillcolor=yellow ];
+    merge [ label = "Merge give-to-others into master" ];
+
+    "Finish C" -> "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug" -> "Added feature B" -> "Added feature A" -> "First version";
+    c2 -> "Fix stupid bug";
+
+    merge -> "Finish C";
+    merge -> c2;
+
+    "HEAD" -> merge;
+    "master" -> merge;
+    "give-to-others" -> c2;
+}

@@ -1,0 +1,8 @@
+.graphviz {
+    text-align: center;
+}
+
+.graphviz > img {
+    height: 66%;
+    max-width: 100%;
+}
