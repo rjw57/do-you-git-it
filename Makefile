@@ -157,3 +157,11 @@ slides:
 
 deploy:
 	rsync -avz $(BUILDDIR)/ richwareham.com:~/public_html/dygi/
+
+open-slides:
+	xdg-open $(BUILDDIR)/slides/index.html
+
+open-notes:
+	xdg-open $(BUILDDIR)/html/index.html
+
+# vim:noet:ts=8:sts=8:sw=8

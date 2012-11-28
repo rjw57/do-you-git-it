@@ -58,6 +58,8 @@ Git: where and how?
 
 * http://git-scm.com/documentation
 * https://help.github.com/
+* `Getting started with git for the Windows developer
+  <http://typecastexception.com/post/2012/09/01/Getting-Started-with-Git-for-the-Windows-Developer-(Part-I).aspx>`_
 
 Git: is it difficult?
 ---------------------
