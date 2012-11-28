@@ -10,6 +10,8 @@ Dr Rich Wareham <``rjw57@cam.ac.uk``>
 
 http://gplus.to/richwareham
 
+https://github.com/rjw57/do-you-git-it
+
 Introduction
 ------------
 
