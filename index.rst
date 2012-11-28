@@ -48,6 +48,17 @@ SVN *can* be the right choice.
 
     If you want to make your code a living breathing entity which is being developed by you or many people, use git.
 
+Git: installing
+---------------
+
+Demo: installing git on this laptop
+
+.. notslides::
+
+    .. code-block:: console
+
+        packer -S git
+
 Git: where and how?
 -------------------
 
