@@ -187,7 +187,8 @@ Desiderata
  * Can send you my version (connected)
  * You can get it from just the name (content addressed)
 
-..notslides::
+.. notslides::
+
     So, let's try to learn from these examples and outline a system that would be useful to us:
 
     * More than one person can work on a project at once. [Concurrent]
