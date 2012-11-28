@@ -6,6 +6,10 @@
 Do You Git It
 =============
 
+Dr Rich Wareham <``rjw57@cam.ac.uk``>
+
+http://gplus.to/richwareham
+
 Introduction
 ------------
 
@@ -22,16 +26,80 @@ Source control
 * :doc:`why`
 * :doc:`history`
 
+Choosing source control
+-----------------------
+
+SVN *can* be the right choice.
+
+.. slides::
+    * SVN - source *archival*
+    * git - source *control*
+        * *Mercurial* (a.k.a. ``hg`` is also good)
+
+.. notslides::
+
+    If all you want is backup, there is one thrust of development and people are not working on big new features, just
+    maintaining old code, use SVN. It is great for source archival
+
+    If you want to make your code a living breathing entity which is being developed by you or many people, use git.
+
+Git: where and how?
+-------------------
+
+* http://git-scm.com/documentation
+* https://help.github.com/
+
 Git: is it difficult?
 ---------------------
 
 * :download:`Some people can't follow it <videos/downfall-git.mp4>`
 * :download:`Aren't git users "holier than thou"? <videos/linus-tech-talk-edit.webm>`
 
-Git
----
+Git: the model
+--------------
 
 * :doc:`model`
+
+Git in one slide
+----------------
+
+.. code-block:: console
+
+    $ git clone <url>       # Get something on your machine
+    $ git add <filename>    # Add a newly created file
+    $ git commit -a         # Commit any changes since the last commit
+    $ git push              # Push your changes elsewhere
+    $ git pull              # Get elsewhere's changes on your machine
+
+Git in two slides
+-----------------
+
+Initially:
+
+.. code-block:: console
+
+    $ git pull                              # Get any changes
+    $ git checkout -b feature-branch        # Start a new feature
+
+Repeatedly:
+
+.. code-block:: console
+
+    $ # ... hack, hack, hack ...
+    $ git commit -a -m 'Commit message'
+
+Finally:
+
+.. code-block:: console
+
+    $ git checkout master                   # Back on 'master'
+    $ git pull                              # Get any changes
+    $ get merge feature-branch              # Merge *your* changes
+    $ git push                              # Send them back
+
+Git: distributing work
+----------------------
+
 * :doc:`server`
 
 * Workflows
