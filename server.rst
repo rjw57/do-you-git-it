@@ -22,6 +22,12 @@ Rolling your own server (git)
 
     $ ssh richwareham.com git init --bare ~/git/my-repo.git
 
+.. notslides::
+
+    We'll push what we've been working on to the remote repo, delete the tree and check it out.
+
+    The remainder will be checking out yt, making a modification locally, pushing it to our private repo.
+
 Remotes
 -------
 
@@ -129,3 +135,7 @@ Demo
 * Signing up to ``github``
 * Forking ``yt``
 * Sending pull request
+
+.. notslides::
+
+    Create new remote for github for our yt program. Push to it. Create pull request.
