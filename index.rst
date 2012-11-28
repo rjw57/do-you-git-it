@@ -6,11 +6,11 @@
 Do You Git It
 =============
 
-Dr Rich Wareham <``rjw57@cam.ac.uk``>
+Dr Rich Wareham, ``rjw57@cam.ac.uk``, http://gplus.to/richwareham
 
-http://gplus.to/richwareham
+Slides & Notes: http://richwareham.com/~rjw57/dygi/
 
-https://github.com/rjw57/do-you-git-it
+Source: https://github.com/rjw57/do-you-git-it
 
 Introduction
 ------------
