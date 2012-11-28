@@ -2,7 +2,7 @@ digraph single_dude {
     "HEAD" [ shape=note ];
     "master" [ shape=note ];
 
-    "HEAD" -> "Fix stupid bug";
+    "HEAD" -> "master";
     "master" -> "Fix stupid bug";
 
     "Fix stupid bug" -> "Added feature B" -> "Added feature A" -> "First version";

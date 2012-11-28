@@ -9,11 +9,13 @@ Do You Git It
 Introduction
 ------------
 
-.. rst-class:: build
-
 * What is source control?
 * Why should I care?
 * :download:`An introduction to SVN <videos/svn-intro.mp4>`
+
+Source control
+--------------
+
 * It is *not* about being able to undo changes, although it certainly helps that
 * It is *not* required to make something Open Source
 
@@ -23,8 +25,6 @@ Introduction
 Git: is it difficult?
 ---------------------
 
-.. rst-class:: build
-
 * :download:`Some people can't follow it <videos/downfall-git.mp4>`
 * :download:`Aren't git users "holier than thou"? <videos/linus-tech-talk-edit.webm>`
 
@@ -32,9 +32,20 @@ Git
 ---
 
 * :doc:`model`
+* :doc:`server`
 
-.. notslides::
-    .. toctree::
-        notes
+* Workflows
+    * :doc:`single_dude`
+    * :doc:`many_dudes`
 
+The 'zen' of git
+----------------
 
+* Pushing and pulling are uncontroversial things
+* Do all the work on *your* machine in a *short-lived* branch
+* Branch early, merge often
+
+Any other things?
+-----------------
+
+* To the audience: anything you want to know about?

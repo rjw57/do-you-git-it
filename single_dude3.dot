@@ -14,7 +14,7 @@ digraph single_dude {
     merge -> "Finish C";
     merge -> c2;
 
-    "HEAD" -> merge;
+    "HEAD" -> "master";
     "master" -> merge;
     "give-to-others" -> c2;
 }

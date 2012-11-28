@@ -22,21 +22,6 @@ The index
 Workflows
 ---------
 
-Single dude
-'''''''''''
-
-A single dude tends to commit linearly.
-
-.. graphviz:: single_dude.dot
-
-There may be a ``give-to-others`` branch. A 'known good' one. Note that the green commit is different to the yellow
-commit.
-
-.. graphviz:: single_dude2.dot
-
-.. graphviz:: single_dude3.dot
-
-.. graphviz:: single_dude4.dot
 
 Team with central branch
 ''''''''''''''''''''''''
@@ -74,8 +59,4 @@ Creating a remote git repo
 
 Manually
 ''''''''
-
-.. code:: console
-
-    $ ssh richwareham.com git init --bare ~/git/my-repo.git
 

@@ -28,7 +28,7 @@ A repository
 
     digraph G {
         master [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -40,10 +40,10 @@ A repository
 .. notslides::
     And this is a git repository with one commit.
 
-    The note-shaped nodes are `references`. These are often called `branches` in other source control system. It is just a
-    handy human-friendly label for that particular commit. Nothing more, nothing less. The ``HEAD`` reference is special: it
-    points to the commit that you're currently working on. "Checking out" a branch simply moves the ``HEAD`` reference to
-    that commit,
+    The note-shaped nodes are `references` or 'refs' for short. These are often called `branches` in other source
+    control system. It is just a handy human-friendly label for that particular commit. Nothing more, nothing less. The
+    ``HEAD`` reference is special: it points to the commit that you're currently working on. "Checking out" a branch
+    simply moves the ``HEAD`` reference to that commit,
 
 Adding a commit
 ---------------
@@ -61,7 +61,7 @@ Adding a commit
 
     digraph G {
         master [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -91,7 +91,7 @@ Adding a branch
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -120,7 +120,7 @@ Committing to ``feature-b``
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -149,7 +149,7 @@ Checking out ``master``
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -178,7 +178,7 @@ Committing to ``master``
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -207,7 +207,7 @@ Meanwhile we also finished B
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -235,7 +235,7 @@ Merge B into ``master``
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         node [shape=Mrecord];
         init [label="{First commit|Contents|null}"];
@@ -264,7 +264,7 @@ Leaving out the redundant 'contents' and 'parents' parts of the nodes.
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         init [label="First commit"];
         c1 [label="Add feature A"];
@@ -293,7 +293,7 @@ merges `into` the ``HEAD`` branch.
     digraph G {
         master [ shape=note ];
         "feature-b" [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
 
         init [label="First commit"];
         c1 [label="Add feature A"];
@@ -320,7 +320,7 @@ The index is a node we modify which will become the next ``HEAD``. It is a tempo
 
     digraph G {
         master [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
         INDEX [ shape=note ];
 
         init [label="First commit"];
@@ -360,7 +360,7 @@ Updating the index
 
     digraph G {
         master [ shape=note ];
-        HEAD [ shape=invhouse ];
+        HEAD [ shape=note ];
         INDEX [ shape=note ];
 
         init [label="First commit"];

@@ -10,7 +10,7 @@ digraph single_dude {
     "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug" -> "Added feature B" -> "Added feature A" -> "First version";
     c2 -> "Fix stupid bug";
 
-    "HEAD" -> "More work on C";
+    "HEAD" -> "master";
     "master" -> "More work on C";
     "give-to-others" -> c2;
 }
