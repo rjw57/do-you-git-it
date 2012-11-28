@@ -70,8 +70,6 @@ Git: where and how?
 Git: is it difficult?
 ---------------------
 
-* :download:`Some people can't follow it <videos/downfall-git.mp4>`
-    * https://www.youtube.com/watch?v=CDeG4S-mJts
 * :download:`Aren't git users "holier than thou"? <videos/linus-tech-talk-edit.webm>`
     * https://www.youtube.com/watch?v=4XpnKHJAok8
 
@@ -137,6 +135,13 @@ Git: distributing work
 * Workflows
     * :doc:`single_dude`
     * :doc:`many_dudes`
+
+Git: is it hard?
+----------------
+
+* :download:`Some people can't follow it <videos/downfall-git.mp4>`
+    * https://www.youtube.com/watch?v=CDeG4S-mJts
+* Remember: git gives you *control*, SVN gives you *archival*. Either is a sensible thing to want.
 
 The 'zen' of git
 ----------------
