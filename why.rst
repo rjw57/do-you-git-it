@@ -164,7 +164,7 @@ Sole research
 Source control
 --------------
 
-A technical solution designed to keep track who who gave what to whom and when, what it is and how it differs from what
+A *technical solution* designed to keep track who who gave what to whom and when, what it is and how it differs from what
 you have.
 
 This for all :math:`t`.
