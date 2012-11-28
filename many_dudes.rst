@@ -4,6 +4,10 @@ The many dude workflow
 Branch early, merge often
 -------------------------
 
+.. notslides::
+
+    This is what the true development history looks like. Feature A took many goes to get right before it was ready.
+
 .. digraph:: G
 
     subgraph cluster_a {
@@ -50,6 +54,9 @@ Branch early, merge often
 
 git mastery: ``git rebase -i``
 ------------------------------
+
+.. notslides::
+    This is what we want to record.
 
 .. digraph:: G
 
