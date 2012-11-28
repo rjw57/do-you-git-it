@@ -2,4 +2,4 @@ set sw=4
 set sts=4
 set et
 set tw=120
-set makeprg=make\ html\ SPHINXBUILD=sphinx-build2
+set makeprg=make\ html\ slides\ SPHINXBUILD=sphinx-build2
