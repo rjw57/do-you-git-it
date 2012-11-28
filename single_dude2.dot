@@ -7,7 +7,7 @@ digraph single_dude {
     c1 [ label = "Fix bug in A", style=filled, fillcolor=green ];
     c2 [ label = "Fix bug in A", style=filled, fillcolor=yellow ];
 
-    "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug" -> "Added feature B" -> "Added feature A" -> "First version";
+    "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug"
     c2 -> "Fix stupid bug";
 
     "HEAD" -> "master";

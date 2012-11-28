@@ -8,7 +8,7 @@ digraph single_dude {
     c2 [ label = "Fix bug in A", style=filled, fillcolor=yellow ];
     merge [ label = "Merge give-to-others into master" ];
 
-    "Finish C" -> "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug" -> "Added feature B" -> "Added feature A" -> "First version";
+    "Finish C" -> "More work on C" -> c1 -> "Start prototyping feature C" -> "Fix stupid bug"
     c2 -> "Fix stupid bug";
 
     merge -> "Finish C";

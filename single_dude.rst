@@ -27,6 +27,10 @@ git mastery: ``git cherry-pick``
     
     $ git cherry-pick <commit>
 
+.. note::
+
+    The ``^`` operator is your friend.
+
 Merging into ``master`` when done
 ---------------------------------
 

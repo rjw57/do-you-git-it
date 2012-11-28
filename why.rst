@@ -183,9 +183,9 @@ Desiderata
 * Stably name a version or a file
 * What is the history of this version?
 * Technically useful
- * Merging should be easy
- * Can send you my version (connected)
- * You can get it from just the name (content addressed)
+    * Merging should be easy
+    * Can send you my version (connected)
+    * You can get it from just the name (content addressed)
 
 .. notslides::
 

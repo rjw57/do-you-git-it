@@ -63,11 +63,23 @@ Git: the model
 Git in one slide
 ----------------
 
+Initially:
+
 .. code-block:: console
 
     $ git clone <url>       # Get something on your machine
-    $ git add <filename>    # Add a newly created file
+
+Repeatedly:
+
+.. code-block:: console
+
+    $ git add <filename>    # Add a newly created file (when needed)
     $ git commit -a         # Commit any changes since the last commit
+
+Regularly:
+
+.. code-block:: console
+
     $ git push              # Push your changes elsewhere
     $ git pull              # Get elsewhere's changes on your machine
 

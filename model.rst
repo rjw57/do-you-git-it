@@ -9,6 +9,8 @@ The commit
     node [shape=Mrecord];
     init [label="{Message|Contents|Parent(s)}"];
 
+"Contents" are a *complete* copy of every file in the project at that moment in time. (Conceptually, at least.)
+
 .. notslides::
     A commit consists of a `commit message`, `content` and zero or more `parents`. The message is intended for humans, the
     content is all the files inside that commit, their names, UNIX permissions, etc. and a parent is a pointer to another

@@ -51,8 +51,7 @@ Cloning
 Pushing and pulling
 -------------------
 
-Push
-''''
+**Push**
 
 .. code-block:: console
 
@@ -60,14 +59,69 @@ Push
 
 Make something over there like ``HEAD``.
 
-Pull
-''''
+**Pull**
 
 .. code-block:: console
 
     $ git pull remote_name ref_name
 
 Make ``HEAD`` like something over there fetching first.
+
+Aside: fast-forwarding
+----------------------
+
+.. digraph:: G
+
+    HEAD [ shape=note ];
+    master [ shape=note ];
+    feature [ shape=note ];
+
+    D -> C -> B -> A;
+
+    HEAD -> master;
+    feature -> D;
+    master -> B;
+
+Explicit merge
+--------------
+
+.. notslides::
+    This is the explicit merging we're used to.
+
+.. digraph:: G
+
+    HEAD [ shape=note ];
+    master [ shape=note ];
+    feature [ shape=note ];
+
+    D -> C -> B -> A;
+
+    merge [ label="merge feature into master" ];
+    merge -> B;
+    merge -> D;
+
+    HEAD -> master;
+    feature -> D;
+    master -> merge;
+
+"Fast forward" merge
+--------------------
+
+.. notslides::
+
+    If we don't care about recording 'explicit' merges, we can 'fast forward'. This just moves the labels.
+
+.. digraph:: G
+
+    HEAD [ shape=note ];
+    master [ shape=note ];
+    feature [ shape=note ];
+
+    D -> C -> B -> A;
+
+    HEAD -> master;
+    feature -> D;
+    master -> D;
 
 Demo
 ----
