@@ -25,6 +25,11 @@ Introduction
 Source control
 --------------
 
+.. notslides::
+
+    The introduction video said that SVN lets you store a copy and revert other's changes. That's not source control,
+    it's backups and a management problem.
+
 * It is *not* about being able to undo changes, although it certainly helps that
 * It is *not* required to make something Open Source
 
