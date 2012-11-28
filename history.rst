@@ -181,8 +181,8 @@ Marking CVS
 * Connected, *Central server*
 * Content addressed, **No**
 
-Subversion (SVN)
-----------------
+Subversion or SVN (2000)
+------------------------
 
 "CVS done right"
 
