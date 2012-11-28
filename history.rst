@@ -186,6 +186,11 @@ Subversion (SVN)
 
 "CVS done right"
 
+.. rst-class:: build
+
+.. figure:: images/do-not-simply-fix-cvs.jpg
+    :align: center
+
 Marking SVN
 -----------
 
