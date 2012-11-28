@@ -15,9 +15,12 @@ https://github.com/rjw57/do-you-git-it
 Introduction
 ------------
 
+* :download:`Is this for hackers? <videos/hackers.mp4>`
+    * https://www.youtube.com/watch?v=bl_1OybdteY
 * What is source control?
 * Why should I care?
 * :download:`An introduction to SVN <videos/svn-intro.mp4>`
+    * https://www.youtube.com/watch?v=fVEoWkdnZ40
 
 Source control
 --------------
@@ -55,7 +58,9 @@ Git: is it difficult?
 ---------------------
 
 * :download:`Some people can't follow it <videos/downfall-git.mp4>`
+    * https://www.youtube.com/watch?v=CDeG4S-mJts
 * :download:`Aren't git users "holier than thou"? <videos/linus-tech-talk-edit.webm>`
+    * https://www.youtube.com/watch?v=4XpnKHJAok8
 
 Git: the model
 --------------

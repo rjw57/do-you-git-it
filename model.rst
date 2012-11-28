@@ -1,6 +1,21 @@
 The git model
 =============
 
+The novel
+---------
+
+Old
+
+* CVS, SVN, etc store changes *between* files
+* A set of changes are lumped together into a 'commit'
+* You're controlling the delta between changes
+
+New
+
+* git stores the current set of files
+* A commit is just a new set of files
+* You're controlling changes
+
 The commit
 ----------
 
